@@ -1,0 +1,13 @@
+# Python / Virtual Env
+trading_env/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+
+# Project specific data (prevents pushing your local cash balances)
+data/*.json
+data/*.txt
+*.log
+.pytest_cache/
